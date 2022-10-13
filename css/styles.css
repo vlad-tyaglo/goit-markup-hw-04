@@ -147,6 +147,9 @@ img {
 .section-hat {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .list {
@@ -183,7 +186,18 @@ img {
 .contact:hover, 
 .contact:focus {
     color: var(--accent-color);
+    
 }
+
+/* .contact-icon-mail {
+    fill: #212121;
+}
+
+.contact-icon-mail,
+.contact-icon-mail {
+    fill: var(--accent-color);
+} */
+
 
 .basement-link:hover, 
 .basement-link:focus {
@@ -295,6 +309,9 @@ img {
     color: var(--paragraph-text-color);
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 
 /* контакты подвал */
@@ -425,5 +442,13 @@ img {
     padding-bottom: 60px;
 }
 
+.contact-icon-mail {
+    width: 16px;
+    height: 12px;
+}
 
+.contact-icon-phone {
+    width: 10px;
+    height: 16px;
+}
 
