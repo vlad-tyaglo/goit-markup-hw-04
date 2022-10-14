@@ -22,8 +22,18 @@
             </ul>
         </nav>
         <ul class="contacts-item list">
-              <li><a class="contact mail-head" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-              <li><a class="contact phone-head" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="contact mail-head" href="mailto:info@devstudio.com"> 
+              <svg class="contact-icon-mail">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>info@devstudio.com
+            </a>
+          </li>
+          <li><a class="contact phone-head" href="tel:+380961111111">
+            <svg class="contact-icon-phone">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>+38 096 111 11 11</a>
+          </li>
         </ul>
     </div>
   </header>
@@ -40,63 +50,63 @@
             <li><button class="button-link" type="button">Маркетинг</button></li>
         </ul>
         <ul class="list project-list">
-          <li>
+          <li class="project-list-item">
             <img src="./images/tech.jpg" alt="Технокряк" width="370">
             <div class="project-container">
               <h2 class="project-title">Технокряк</h2>
               <p class="project-paragraph">Веб-сайт</p>
             </div>
           </li>
-          <li>
+          <li class="project-list-item">
             <img src="./images/poster.jpg" alt="Постер" width="370">
             <div class="project-container">
               <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
               <p class="project-paragraph">Дизайн</p>
             </div>
           </li>
-          <li>
+          <li class="project-list-item">
             <img src="./images/restoran.jpg" alt="Ресторан" width="370">
             <div class="project-container">
               <h2 class="project-title">Ресторан Seafood</h2>
               <p class="project-paragraph">Додаток </p>
             </div>
           </li>
-          <li>
+          <li class="project-list-item">
             <img src="./images/prime.jpg" alt="Навушники" width="370">
             <div class="project-container">
               <h2 class="project-title">Проєкт Prime</h2>
               <p class="project-paragraph">Маркетинг</p>
             </div>
           </li>
-          <li>
+          <li class="project-list-item">
             <img src="./images/boxes.jpg" alt="Коробка" width="370">
             <div class="project-container">
               <h2 class="project-title">Проєкт Boxes</h2>
               <p class="project-paragraph">Додаток </p>
             </div>
           </li>
-          <li>
+          <li class="project-list-item">
             <img src="./images/inspiration.jpg" alt="Монітор" width="370">
             <div class="project-container">
               <h2 class="project-title">Inspiration has no Borders</h2>
               <p class="project-paragraph">Веб-сайт </p>
             </div>
           </li>
-            <li>
+            <li class="project-list-item">
             <img src="./images/edition.jpg" alt="Видання" width="370">
             <div class="project-container">
               <h2 class="project-title">Видання Limited Edition</h2>
               <p class="project-paragraph">Веб-сайт</p>
             </div>
           </li>
-          <li>
+          <li class="project-list-item">
             <img src="./images/lab.jpg" alt="Проєкт" width="370">
             <div class="project-container">
               <h2 class="project-title">Проєкт LAB</h2>
               <p class="project-paragraph">Маркетинг</p>
             </div>
           </li>
-          <li>
+          <li class="project-list-item">
             <img src="./images/growing.jpg" alt="Ноутбук" width="370">
             <div class="project-container">
               <h2 class="project-title">Growing Business</h2>
@@ -110,15 +120,49 @@
 
   <footer class="basement">
     <div class="container basement-container">
-      <a class="basement-logo" href=""><spa class="accent">Web</spa>Studio</a>
-    <address>
-      <ul class="list">
-        <li class="basement-adr-li"><a class="basement-adress" href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000">м. Київ, пр-т Лесі Українки, 26</a></li>
-        <li class="basement-cont-li"><a class="basement-contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="basement-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
-    </address>
-  </div>
+      <div>
+        <a class="basement-logo" href=""><spa class="accent">Web</spa>Studio</a>
+      <address>
+        <ul class="list">
+          <li class="basement-adr-li"><a class="basement-adress" href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000">м. Київ, пр-т Лесі Українки, 26</a></li>
+          <li class="basement-cont-li"><a class="basement-contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="basement-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </address>
+    </div>
+    <div>
+        <h2 class="plus-title">Приєднуйтесь</h2>
+        <ul class="social-list list">
+          <li class="social-list-item">
+            <a href="#" class="social-list-link-basement">
+              <svg class="social-icons-basement">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="#" class="social-list-link-basement">
+              <svg class="social-icons-basement">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="#" class="social-list-link-basement">
+              <svg class="social-icons-basement">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="#" class="social-list-link-basement">
+              <svg class="social-icons-basement">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </div>
+    </div>
   </footer>
 </body>
 </html>
