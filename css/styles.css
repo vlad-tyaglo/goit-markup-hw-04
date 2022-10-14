@@ -261,10 +261,20 @@ img {
 .section-hat {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(../images/back.jpg);
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ), url(../images/back.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
+    background-position: center;
 }
+
 
 .list {
     list-style: none;
@@ -576,7 +586,7 @@ img {
 }
 
 .hat {
-    background-color: var(--secondary-background-color);
+    /* background-color: var(--secondary-background-color); */
     text-align: center;
 }
 
