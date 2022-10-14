@@ -109,11 +109,86 @@ img {
  column-gap: 30px;
 }
 
+.speciality-icons {
+    width: 70px;
+    height: 70px;
+}
+
+.container-icons {
+    background-color: #F5F4FA;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
 .team-container {
     
     background-color: var(--background-basic-color);
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.company-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.company-icons {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+
+.company-list-link:hover .company-icons,
+.company-list-link:focus .company-icons{
+    fill: var(--accent-color);
+}
+
+.company-list-link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.social-icons {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    
+}
+
+.social-list-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #2196F3;
+}
+
+.social-list-link:hover .social-icons,
+.social-list-link:focus .social-icons{
+    fill: #FFFFFF;
 }
 
 .activity-list {
@@ -352,6 +427,15 @@ img {
     text-decoration: none;
 }
 
+.clients {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .team {
     font-weight: 700;
     font-size: 36px;
@@ -376,6 +460,7 @@ img {
     color: var(--paragraph-text-color);
     letter-spacing: 0.03em;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .project-title {
