@@ -96,10 +96,21 @@ img {
     border-top: none;
 }
 
-/* .basement-container{
- padding-top: 60px;
- padding-bottom: 60px;
-} */
+.basement-container{
+    display: flex;
+    column-gap: 70px;
+}
+
+.plus-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
 
 .specialty-list {
  display: flex;
