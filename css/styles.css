@@ -399,6 +399,11 @@ img {
     color: var(--accent-color);
 }
 
+.basement-contact-mail:hover, 
+.basement-contact-mail:focus {
+    color: var(--accent-color);
+}
+
 .button-link {
     cursor: pointer;
     font-family: inherit;
